@@ -1,0 +1,57 @@
+
+#primeraFila{
+    margin-top: 20px;
+}
+
+.maincontainer {
+display: flex;
+justify-content: space-between;
+text-align: left;
+align-items: center;
+
+}
+
+.container img {
+width: 100%;
+height: 350px;
+width: 350px;
+
+}
+
+
+#menu2 img{
+height: 800px;
+width: 800px;
+align-items: center;
+align-content: center;
+overflow: hidden; /* Evita que la imagen sobresalga del div si es más grande */
+justify-content: center; /* Centra horizontalmente */
+align-items: center; /* Centra verticalmente */
+display: flex; /* Utiliza flexbox para centrar la imagen */
+max-width: 800px; /* Por ejemplo, aquí el div tiene un ancho máximo de 600px */
+max-height: 800px;
+margin: 0 auto; /* Centra el div horizontalmente en la página */
+width: 100%; /* Opcional: puedes ajustar el ancho del div según tus necesidades */
+height: 100%;
+}
+
+#menu2{
+
+height: 800px;
+width: auto;
+margin-top: 20px;
+}
+
+#myTabContent img{
+margin-top: 10px;
+}
+
+
+#card1{
+background-color: white;
+}
+
+#tema1{
+border-radius: 10px;
+background: linear-gradient(to right, yellow, orange, red, blue, purple)
+}
